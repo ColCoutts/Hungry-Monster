@@ -1,3 +1,7 @@
+* {
+    background: slateblue;
+}
+
 .red {
     background: red;
     color: white;
@@ -29,29 +33,56 @@
 
 #monster-head {
     display: inline-block;
+    border: 2px solid black;
     width: 150px;
     padding: 0px;
     margin: 0px;
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    z-index: 1;
 
 }
 
 #body-blocks {
     border: 3px solid black;
     display: inline-block;
-    width: 200px;
-    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 120px;
+    width: 300%;
+    height: 200px;
     margin-bottom: 80px;
     overflow: hidden;
 }
 
 .color-piece {
-    width: 50px;
-    height: 50px;
+    position: relative;
+    top: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
     display: inline-block;
 }
 
 .transform {
     transform: translateY(20px);
+}
+
+.monster-dance {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 60px;
+}
+
+.button-row {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+#greeting {
+    color: white;
+    position: relative;
+    bottom: 10px;
 }

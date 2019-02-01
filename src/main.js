@@ -45,9 +45,6 @@ function paint(colorButton) {
     bodyBlocks.appendChild(bodyAdd);
 }
 
-// create bottom row of dance buttons
-
-// create transform function and remove function
 function transform(colorButton) {
     const selector = '.color-piece.' + colorButton;
     const danceChange = document.querySelectorAll(selector);
